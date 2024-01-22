@@ -1,3 +1,5 @@
+Android Project Coded By- Vedant.R.J.Chourey
+
 Tittle-Tattle:
 
 Stay updated with the latest news from around the world with this Android Kotlin news app.
