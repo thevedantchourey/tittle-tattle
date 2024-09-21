@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity(), NewsItemClicked {
             val selectedItem = parent.getItemAtPosition(position).toString()
 
             Log.d("TAG", selectedItem)
-            val url = "https://newsapi.org/v2/top-headlines?country=in&category=$selectedItem&apiKey=016d829068144dc1b48c59bc9bc25329"
+            val url = "https://newsapi.org/v2/top-headlines?country=us&category=$selectedItem&apiKey=016d829068144dc1b48c59bc9bc25329"
             val getRequest: JsonObjectRequest = object : JsonObjectRequest(
                 Method.GET,
                 url,
@@ -89,7 +89,7 @@ class MainActivity : AppCompatActivity(), NewsItemClicked {
 
     private fun fetchData2(){
 
-            val url = "https://newsapi.org/v2/top-headlines?country=in&apiKey=016d829068144dc1b48c59bc9bc25329"
+            val url = "https://newsapi.org/v2/top-headlines?country=us&apiKey=016d829068144dc1b48c59bc9bc25329"
             val getRequest: JsonObjectRequest = object : JsonObjectRequest(
                 Method.GET,
                 url,
