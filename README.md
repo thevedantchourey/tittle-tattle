@@ -15,7 +15,7 @@ Stay informed about the latest buzz from across the globe with tittle-tattle, a 
 
 **Android (Kotlin):** Native Android development platform with Kotlin, a modern and concise programming language.<br>
 **Retrofit:** Powerful library for efficient HTTP client development, simplifying communication with the News API.<br>
-**XML (Optional):** Layouts designed using XML (if applicable). You might consider migrating to Jetpack Compose for a more modern and declarative approach in future updates.<br>
+**XML (Optional):** Layouts designed using XML (if applicable).<br>
 
 
 <br>
